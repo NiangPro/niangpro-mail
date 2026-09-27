@@ -1,0 +1,26 @@
+{
+    "name": "niangpro/mail",
+    "description": "Emails (SMTP) et notifications.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NiangProgrammeur"
+        }
+    ],
+    "homepage": "https://github.com/NiangPro/niangpro",
+    "require": {
+        "php": ">=8.1",
+        "niangpro/core": "self.version",
+        "niangpro/queue": "self.version"
+    },
+    "suggest": {
+        "niangpro/database": "Pilotes et ponts optionnels vers database.",
+        "niangpro/auth": "Pilotes et ponts optionnels vers auth."
+    },
+    "autoload": {
+        "psr-4": {
+            "Niang\\Core\\": "src/"
+        }
+    }
+}
